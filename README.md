@@ -43,7 +43,7 @@ OpenCV is one of the go-to library to implement computer vision algorithm. Mobil
 - To test your computer vision algorithm on an iOS device, the best image data sources are the cameras. In the last section of this tutorial, let's setup the iPhone/iPad/iPod Touch cameras and feed their image data into any CV algorithm in a cv::Mat class data container.
 - The following snippet is the bare-bone code to feed the camera data into your computer vision algorithm. Follow the comment line by line; you will understand how the code works.
 
-```
+```Objective-C
 #import "ViewController.h"
 #import <opencv2/videoio/cap_ios.h> //import opencv libs
 #import <opencv2/opencv.hpp>
